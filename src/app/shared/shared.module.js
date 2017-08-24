@@ -9,8 +9,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
 var forms_1 = require("@angular/forms");
-var awesome_pipe_1 = require("./awesome.pipe");
-var highlight_directive_1 = require("./highlight.directive");
+var awesome_pipe_js_1 = require("./awesome.pipe.js");
+var highlight_directive_js_1 = require("./highlight.directive.js");
 var SharedModule = (function () {
     function SharedModule() {
     }
@@ -19,8 +19,8 @@ var SharedModule = (function () {
 SharedModule = __decorate([
     core_1.NgModule({
         imports: [common_1.CommonModule],
-        declarations: [awesome_pipe_1.AwesomePipe, highlight_directive_1.HighlightDirective],
-        exports: [awesome_pipe_1.AwesomePipe, highlight_directive_1.HighlightDirective,
+        declarations: [awesome_pipe_js_1.AwesomePipe, highlight_directive_js_1.HighlightDirective],
+        exports: [awesome_pipe_js_1.AwesomePipe, highlight_directive_js_1.HighlightDirective,
             common_1.CommonModule, forms_1.FormsModule]
     })
 ], SharedModule);
