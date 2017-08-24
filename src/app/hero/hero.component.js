@@ -11,8 +11,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 // Exact copy except import UserService from core
 var core_1 = require("@angular/core");
-var hero_service_1 = require("./hero.service");
-var user_service_1 = require("../core/user.service");
+var hero_service_js_1 = require("./hero.service.js");
+var user_service_js_1 = require("../core/user.service.js");
 var HeroComponent = (function () {
     function HeroComponent(userService) {
         this.userName = '';
@@ -22,10 +22,14 @@ var HeroComponent = (function () {
 }());
 HeroComponent = __decorate([
     core_1.Component({
-        template: "\n    <h2>Heroes of {{userName}}</h2>\n    <router-outlet></router-outlet>\n  ",
-        providers: [hero_service_1.HeroService]
+        // template: `
+        //   <h2>Heroes of {{userName}}</h2>
+        //   <router-outlet></router-outlet>
+        // `,
+        template: "\n  <div>Testing dynamic loading of components</div>\n  ",
+        providers: [hero_service_js_1.HeroService]
     }),
-    __metadata("design:paramtypes", [user_service_1.UserService])
+    __metadata("design:paramtypes", [user_service_js_1.UserService])
 ], HeroComponent);
 exports.HeroComponent = HeroComponent;
 //# sourceMappingURL=hero.component.js.map

@@ -8,15 +8,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var hero_component_1 = require("./hero.component");
-var hero_list_component_1 = require("./hero-list.component");
-var hero_detail_component_1 = require("./hero-detail.component");
+var hero_component_js_1 = require("./hero.component.js");
+var hero_list_component_js_1 = require("./hero-list.component.js");
+var hero_detail_component_js_1 = require("./hero-detail.component.js");
 var routes = [
     { path: '',
-        component: hero_component_1.HeroComponent,
+        component: hero_component_js_1.HeroComponent,
         children: [
-            { path: '', component: hero_list_component_1.HeroListComponent },
-            { path: ':id', component: hero_detail_component_1.HeroDetailComponent }
+            { path: '', component: hero_list_component_js_1.HeroListComponent },
+            { path: ':id', component: hero_detail_component_js_1.HeroDetailComponent }
         ]
     }
 ];

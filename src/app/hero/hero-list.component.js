@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var hero_service_1 = require("./hero.service");
+var hero_service_js_1 = require("./hero.service.js");
 var HeroListComponent = (function () {
     function HeroListComponent(heroService) {
         this.heroService = heroService;
@@ -24,7 +24,7 @@ HeroListComponent = __decorate([
     core_1.Component({
         template: "\n    <h3 highlight>Hero List</h3>\n    <div *ngFor='let hero of heroes | async'>\n      <a routerLink=\"{{hero.id}}\">{{hero.id}} - {{hero.name}}</a>\n    </div>\n  "
     }),
-    __metadata("design:paramtypes", [hero_service_1.HeroService])
+    __metadata("design:paramtypes", [hero_service_js_1.HeroService])
 ], HeroListComponent);
 exports.HeroListComponent = HeroListComponent;
 //# sourceMappingURL=hero-list.component.js.map

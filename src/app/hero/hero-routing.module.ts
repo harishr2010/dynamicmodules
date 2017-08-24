@@ -2,9 +2,9 @@ import { NgModule }     from '@angular/core';
 import { Routes,
          RouterModule } from '@angular/router';
 
-import { HeroComponent }       from './hero.component';
-import { HeroListComponent }   from './hero-list.component';
-import { HeroDetailComponent } from './hero-detail.component';
+import { HeroComponent }       from './hero.component.js';
+import { HeroListComponent }   from './hero-list.component.js';
+import { HeroDetailComponent } from './hero-detail.component.js';
 
 const routes: Routes = [
   { path: '',

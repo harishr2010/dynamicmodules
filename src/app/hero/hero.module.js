@@ -7,11 +7,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var shared_module_1 = require("../shared/shared.module");
-var hero_component_1 = require("./hero.component");
-var hero_detail_component_1 = require("./hero-detail.component");
-var hero_list_component_1 = require("./hero-list.component");
-var hero_routing_module_1 = require("./hero-routing.module");
+var shared_module_js_1 = require("../shared/shared.module.js");
+var hero_component_js_1 = require("./hero.component.js");
+var hero_detail_component_js_1 = require("./hero-detail.component.js");
+var hero_list_component_js_1 = require("./hero-list.component.js");
+var hero_routing_module_js_1 = require("./hero-routing.module.js");
 var HeroModule = (function () {
     function HeroModule() {
     }
@@ -19,9 +19,9 @@ var HeroModule = (function () {
 }());
 HeroModule = __decorate([
     core_1.NgModule({
-        imports: [shared_module_1.SharedModule, hero_routing_module_1.HeroRoutingModule],
+        imports: [shared_module_js_1.SharedModule, hero_routing_module_js_1.HeroRoutingModule],
         declarations: [
-            hero_component_1.HeroComponent, hero_detail_component_1.HeroDetailComponent, hero_list_component_1.HeroListComponent,
+            hero_component_js_1.HeroComponent, hero_detail_component_js_1.HeroDetailComponent, hero_list_component_js_1.HeroListComponent,
         ]
     })
 ], HeroModule);
