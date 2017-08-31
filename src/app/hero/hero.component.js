@@ -27,7 +27,7 @@ HeroComponent = __decorate([
         //   <router-outlet></router-outlet>
         // `,
         template: "\n  <div>Testing dynamic loading of components</div>\n  ",
-        providers: [hero_service_js_1.HeroService]
+        providers: [user_service_js_1.UserService, hero_service_js_1.HeroService]
     }),
     __metadata("design:paramtypes", [user_service_js_1.UserService])
 ], HeroComponent);
